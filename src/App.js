@@ -5,8 +5,9 @@ function App() {
   return (
     <div>
     <h1>Plag Checker</h1>
-    <h2>Enter your code Here</h2>
-    <input type="text"></input>
+    <h4>Enter Code Here</h4>
+    <textarea rows="50" cols="100"></textarea>
+    <button>Submit</button>
     </div>
   );
 }
